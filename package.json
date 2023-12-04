@@ -1,0 +1,31 @@
+{
+  "name": "map",
+  "version": "1.0.0",
+  "description": "Вы решили упорядочить работу с ошибками в своём приложении, а именно ввести цетрализованно числовой код ошибки и её описание. И при генерации любых ошибок в коде приложения брать их из централизованного хранилища.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/myx777/Map.git"
+  },
+  "author": "myx777",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myx777/Map/issues"
+  },
+  "homepage": "https://github.com/myx777/Map#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5",
+    "babel-jest": "^29.7.0",
+    "core-js": "^3.33.3",
+    "eslint": "^8.55.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "jest": "^29.7.0",
+    "minimatch": "^3.0.2"
+  }
+}
