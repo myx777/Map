@@ -7,7 +7,6 @@ describe('test class ErrorRepository (reading and writing an error by its number
   errorRepo.addError(500, 'Internal Server Error');
 
   test('check add number of error to ErrorRepository', () => {
-    expect(errorRepo.errorMap.has(400)).toBe(true);
     expect(errorRepo.errorMap.get(400)).toBe('Bad Request');
   });
   test('check add description error to ErrorRepository', () => {
